@@ -125,7 +125,7 @@ const Contact = () => {
 
             
             <a
-              href='https://instagram.com/gangasagar_soni'
+              href='https://instagram.com/sagar_soni_915'
               title='Instagram'
               className='inline-flex items-center justify-center w-12 h-12 rounded-full bg-teal-600 text-white hover:bg-teal-700 transition-all duration-300 transform hover:scale-110 shadow-lg hover:shadow-xl'
               target='_blank'
