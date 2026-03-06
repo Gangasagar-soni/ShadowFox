@@ -148,6 +148,72 @@ const About = () => {
 
         </section>
 
+        <section id="projects">
+
+          <h3 className="text-xl font-semibold text-teal-800 mb-6">
+            Projects
+          </h3>
+
+          <div className="space-y-6">
+
+            <div>
+              <p className="font-medium text-gray-800">
+                React Movie Application
+              </p>
+
+              <p className="text-gray-600 text-sm mt-1">
+                A React application that fetches movie data from the TMDB
+                API allowing users to search and explore trending movies.
+              </p>
+
+              <div className="flex gap-4 mt-2 text-sm">
+                <a className="text-teal-700 hover:underline" href="http://gs-movie-app.netlify.app">
+                  Live Demo
+                </a>
+                <a className="text-teal-700 hover:underline" href="https://github.com/Gangasagar-soni/MovieApp">
+                  GitHub
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <p className="font-medium text-gray-800">
+                StayHub
+              </p>
+
+              <p className="text-gray-600 text-sm mt-1">
+                An Airbnb-style web application built with Node.js,
+                Express, MongoDB, and EJS featuring authentication,
+                CRUD property listings, and dynamic pages.
+              </p>
+
+              <div className="flex gap-4 mt-2 text-sm">
+                <a className="text-teal-700 hover:underline" href="#">
+                  Live Demo
+                </a>
+                <a className="text-teal-700 hover:underline" href="#">
+                  GitHub
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+        <section>
+
+          <h3 className="text-xl font-semibold text-teal-800 mb-4">
+            Interests
+          </h3>
+
+          <p className="text-gray-700">
+            Building full-stack applications, exploring modern
+            JavaScript technologies, and improving problem solving
+            skills through coding challenges.
+          </p>
+
+        </section>
 
       </div>
     </div>
