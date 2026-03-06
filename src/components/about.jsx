@@ -1,34 +1,120 @@
-import React from 'react'
-import profile from '../assets/photo.jpg';
+import React from "react";
+import profile from "../assets/photo.jpg";
 
 const About = () => {
-  return (
-      <div className='flex flex-col lg:flex-row items-center lg:items-start justify-center gap-8 px-8 py-12 bg-amber-50 min-h-screen'>
-        <div className='relative flex-shrink-0'>
-         
-  <img 
-    src={profile}
-    alt='Profile'
-    className='relative w-48 h-48 rounded-full border-4 border-teal-500 shadow-2xl object-cover'
-  />
-  <h2 className='text-teal-500 text-2xl font-bold mt-4 text-center border-b-2 border-teal-500 lg:border-b-0  lg:pl-4 lg:text-left'>Gangasagar Soni</h2>
-          </div>
-          <div className='px-8'>
-            <h2 className='text-teal-800 text-2xl font-bold'>About Me</h2>
-            <p className='text-gray-600 mt-4'>
-              I am a passionate MERN stack developer with experience in building scalable web applications. Using technologys like React, Node.js, Express, and MongoDB to create dynamic and responsive user interfaces. I enjoy solving complex problems and continiously learning new technology to enhance my skills.
-            </p><br/>
-            <h3 className='text-teal-800 text-lg font-bold'>Skills</h3>
-            <ul className='list-disc list-inside text-gray-600 mt-2'>
-              <li>React</li>
-              <li>Node.js</li>
-              <li>Express</li>
-              <li>MongoDB</li>
-              <li>MYSQL</li>
-            </ul>
-          </div>
-          </div>
-  )
-}
 
-export default About
+  const skills = [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "MySQL",
+    "HTML",
+    "CSS",
+    "REST API",
+    "Git"
+  ];
+
+  return (
+    <div className="bg-teal-50 min-h-screen py-16 px-4 sm:px-8">
+      <div className="max-w-6xl mx-auto space-y-16">
+
+        <div className="flex flex-col lg:flex-row items-center gap-12">
+
+          <div className="text-center">
+            <img
+              src={profile}
+              alt="profile"
+              className="w-40 h-40 rounded-full object-cover border-4 border-teal-500 shadow-md ml-auto mr-auto"
+            />
+
+            <h1 className="text-3xl font-semibold text-teal-800 mt-4">
+              Gangasagar Soni
+            </h1>
+
+            <p className="text-gray-600 text-sm mt-1">
+              MERN Stack Developer
+            </p>
+
+            <div className="flex justify-center gap-4 mt-5">
+
+              <a
+                href="/resume.pdf"
+                className="px-5 py-2 bg-teal-600 text-white text-sm rounded-md hover:bg-teal-700 transition"
+                target="_blank"
+              >
+                Resume
+              </a>
+
+              <a
+                href="#projects"
+                className="px-5 py-2 border border-teal-600 text-teal-700 text-sm rounded-md hover:bg-teal-100 transition"
+              >
+                Live Projects
+              </a>
+
+            </div>
+          </div>
+
+          <div className="flex-1 space-y-4">
+
+            <h2 className="text-2xl font-semibold text-teal-800">
+              About Me
+            </h2>
+
+            <p className="text-gray-700 leading-relaxed">
+              I’m a Full-Stack Developer specializing in the MERN stack
+              (MongoDB, Express.js, React, Node.js). I focus on building
+              scalable web applications with clean architecture and
+              efficient APIs.
+            </p>
+
+            <p className="text-gray-700 leading-relaxed">
+              I have built projects such as a React Movie Application and
+              an Airbnb-style platform using Node.js, Express, MongoDB,
+              and EJS. Through these projects I gained experience working
+              with REST APIs, authentication systems, database design,
+              and responsive UI development.
+            </p>
+
+            <p className="text-gray-700 leading-relaxed">
+              Currently, I’m working as a Full Stack Developer Intern,
+              gaining practical experience building real-world web
+              applications and improving my backend and frontend
+              development skills.
+            </p>
+
+          </div>
+
+        </div>
+
+        <section>
+
+          <h3 className="text-xl font-semibold text-teal-800 mb-6">
+            Skills
+          </h3>
+
+          <div className="flex flex-wrap gap-3">
+
+            {skills.map((skill) => (
+              <span
+                key={skill}
+                className="text-sm bg-teal-100 text-teal-800 px-4 py-2 rounded-md"
+              >
+                {skill}
+              </span>
+            ))}
+
+          </div>
+
+        </section>
+
+
+
+      </div>
+    </div>
+  );
+};
+
+export default About;
