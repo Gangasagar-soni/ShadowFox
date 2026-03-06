@@ -110,6 +110,43 @@ const About = () => {
 
         </section>
 
+        <section className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+          <div>
+            <h3 className="text-xl font-semibold text-teal-800 mb-4">
+              Experience
+            </h3>
+
+            <p className="font-medium text-gray-800">
+              Full Stack Developer Intern
+            </p>
+
+            <p className="text-gray-600 text-sm">
+              ShadowFox • 2026 – Present
+            </p>
+
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-teal-800 mb-4">
+              Education
+            </h3>
+
+            <p className="font-medium text-gray-800">
+              Bachelor of Computer Applications (BCA)
+            </p>
+
+            <p className="text-gray-600 text-sm">
+              GH Raisoni Institute of Engineering and Technology
+            </p>
+
+            <p className="text-gray-600 text-sm">
+              2023 – 2026
+            </p>
+
+          </div>
+
+        </section>
 
 
       </div>
