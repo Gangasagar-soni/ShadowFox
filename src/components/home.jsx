@@ -3,7 +3,7 @@ import profile from '../assets/photo.jpg';
 
 const Home = () => {
   return (
-    <div className='flex items-center justify-center min-h-screen bg-gradient-to-br from-teal via-teal-50 to-white'>
+    <div className='flex items-center justify-center min-h-screen bg-amber-50'>
       <div className='flex flex-col items-center justify-center gap-8 px-6 py-12'>
         <div className='relative'>
           <div className='absolute inset-0 bg-gradient-to-r from-teal-400 to-teal-600 rounded-full blur-2xl opacity-70'></div>
@@ -25,7 +25,6 @@ const Home = () => {
           Full Stack Developer | Creative Coder | Tech Enthusiast
         </p>
 
-        {/* social icons */}
         <div className='flex items-center justify-center space-x-6 mt-6'>
           <a
             href='https://github.com/Gangasagar-soni'

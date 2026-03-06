@@ -35,7 +35,7 @@ const Contact = () => {
 
   return (
     <div className='min-h-screen bg-amber-50 flex items-center justify-center py-16 px-4'>
-      <div className='max-w-lg w-full bg-white rounded-lg shadow-lg border-2 border-teal-600 p-8 animate-fadeIn hover:shadow-xl transition-shadow duration-300'>
+      <div className='max-w-xl w-full bg-white rounded-lg shadow-lg border-2 border-teal-600 p-8 animate-fadeIn hover:shadow-xl transition-shadow duration-300'>
         <h1 className='text-4xl font-bold mb-2 text-teal-700 text-center'>Get In Touch</h1>
         <p className='text-teal-600 text-center mb-8 text-lg'>
           Have a question? Send me a message and I'll respond as soon as possible.

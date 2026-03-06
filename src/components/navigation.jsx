@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <div>
       <div className='flex items-center justify-between flex-wrap bg-teal-500 p-6'>
-        <h1 className='text-white text-xl font-bold'>My App</h1>
+        <h1 className='text-white text-xl font-bold'>GANGASAGAR SONI</h1>
         <nav>
           <ul className='flex space-x-4'>
             <li><a href='/' className='text-white hover:text-gray-300'>Home</a></li>
