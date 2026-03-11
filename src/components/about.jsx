@@ -191,7 +191,7 @@ const About = () => {
                 <a className="text-teal-700 hover:underline" href="#">
                   Live Demo
                 </a>
-                <a className="text-teal-700 hover:underline" href="#">
+                 <a className="text-teal-700 hover:underline" href="https://github.com/Gangasagar-soni/StayHub">
                   GitHub
                 </a>
               </div>
