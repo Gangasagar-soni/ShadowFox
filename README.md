@@ -21,8 +21,7 @@ This is my personal developer portfolio built to showcase my projects, technical
 
 ## 🖥️ Live Demo
 
-Add your deployed link here
-Example: https://your-portfolio-link.com
+ gangasagar-soni.netlify.app
 
 ## ⚙️ Installation
 
