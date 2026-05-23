@@ -21,7 +21,7 @@ This is my personal developer portfolio built to showcase my projects, technical
 
 ## 🖥️ Live Demo
 
- gangasagar-soni.netlify.app
+ https://gangasagars-portfolio.netlify.app
 
 ## ⚙️ Installation
 
@@ -48,10 +48,6 @@ npm install
 ```bash
 npm start
 ```
-
-## 📸 Screenshots
-
-(Add screenshots of your portfolio here)
 
 ## 📌 Projects Included
 
