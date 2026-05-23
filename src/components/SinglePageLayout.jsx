@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useScrollProgress } from '../hooks/useScrollAnimations';
+import TechBackground from './TechBackground';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import Skills from './sections/Skills';
@@ -35,7 +36,10 @@ const SinglePageLayout = () => {
   }, []);
 
   return (
-    <div className="bg-gray-950 text-white overflow-x-hidden">
+    <div className="bg-gray-950 text-white overflow-x-hidden relative">
+      {/* Animated Tech Background */}
+      <TechBackground />
+
       {/* Progress Bar */}
       <div className="fixed top-0 left-0 h-1 bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 z-50" 
            style={{ width: `${scrollProgress}%`, transition: 'width 0.3s ease' }}>
@@ -45,7 +49,7 @@ const SinglePageLayout = () => {
       <Navigation activeSection={activeSection} />
 
       {/* Sections */}
-      <main>
+      <main className="relative z-10">
         <section id="hero">
           <Hero />
         </section>
