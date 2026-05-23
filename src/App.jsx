@@ -1,23 +1,8 @@
 import './index.css';
-import Navigation from './components/navigation.jsx';
-import Home from './components/home.jsx';
-import Contact from './components/contact.jsx';
-import About from './components/about.jsx';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import SinglePageLayout from './components/SinglePageLayout.jsx';
 
 function App() {
- 
-
-  return (
-    <BrowserRouter>
-        <Navigation />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
-    </BrowserRouter>
-  )
+  return <SinglePageLayout />;
 }
 
-export default App
+export default App;

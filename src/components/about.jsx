@@ -40,7 +40,7 @@ const About = () => {
             <div className="flex justify-center gap-4 mt-5">
 
               <a
-                href="/resume.pdf"
+                href="/Gangasagar_soni.pdf"
                 className="px-5 py-2 bg-teal-600 text-white text-sm rounded-md hover:bg-teal-700 transition"
                 target="_blank"
               >
